@@ -1,5 +1,6 @@
-# IITM Assignment API
+# Project 2 TDS
 
-This API automatically answers questions from graded assignments for the IIT Madras Online Degree in Data Science.
 
-# Run the server: `uvicorn app.main:app --reload`
+# setup
+1. Inside the root directory
+2. Run the command `uvicorn app.main:app --reload`
