@@ -3,7 +3,7 @@ anyio==4.9.0
 beautifulsoup4==4.13.3
 certifi==2025.1.31
 click==8.1.8
-fastapi==0.109.1  # Slightly older stable version
+fastapi==0.109.1
 h11==0.14.0
 httpx==0.28.1
 numpy==2.2.4
@@ -13,7 +13,6 @@ pydantic==2.10.6
 PyPDF2==3.0.1
 python-dotenv==1.0.1
 python-multipart==0.0.9
-starlette==0.36.3  # Matches FastAPI 0.109
 tabula-py==2.10.0
 tqdm==4.67.1
 typing_extensions==4.12.2
