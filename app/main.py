@@ -20,6 +20,13 @@ app.add_middleware(
 )
 
 
+
+@app.get("/")
+def hello():
+    return {"deployed":True}
+
+
+
 @app.post("/api/")
 async def process_question(
     question: str = Form(...), file: Optional[UploadFile] = File(None)
